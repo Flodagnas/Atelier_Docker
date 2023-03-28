@@ -41,10 +41,10 @@ Docker est une plateforme de conteneurisation qui permet d'isoler des applicatio
 
 Voici quelques termes de base que vous devez connaître :    
 
-. Image : un modèle de fichier binaire qui contient tout ce qui est nécessaire pour exécuter une application, y compris le code, les bibliothèques et les dépendances.
-. Conteneur : une instance exécutable d'une image Docker.
-. Dockerfile : un fichier qui contient des instructions pour créer une image Docker.
-. docker build : une commande qui crée une image Docker à partir d'un Dockerfile.
-. docker run : une commande qui démarre un conteneur à partir d'une image Docker.
-. docker ps : une commande qui liste tous les conteneurs en cours d'exécution.
-. docker stop : une commande qui arrête un
+. Image : un modèle de fichier binaire qui contient tout ce qui est nécessaire pour exécuter une application, y compris le code, les bibliothèques et les dépendances.    
+. Conteneur : une instance exécutable d'une image Docker.   
+. Dockerfile : un fichier qui contient des instructions pour créer une image Docker.    
+. docker build : une commande qui crée une image Docker à partir d'un Dockerfile.   
+. docker run : une commande qui démarre un conteneur à partir d'une image Docker.   
+. docker ps : une commande qui liste tous les conteneurs en cours d'exécution.    
+. docker stop : une commande qui arrête un    
