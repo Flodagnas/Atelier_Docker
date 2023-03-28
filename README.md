@@ -12,7 +12,7 @@ Dans ce TP, vous allez :
 Exécuter un conteneur à partir de votre image   
 Comprendre les concepts de base de Docker   
 Utiliser Docker Compose pour exécuter une application multi-conteneurs    
-1. Créer votre première image Docker    
+#### 1. Créer votre première image Docker    
 Dans cette partie, vous allez créer votre première image Docker. Pour cela, vous allez créer un fichier Dockerfile dans un répertoire vide. Ce fichier contiendra les instructions nécessaires pour créer votre image.    
 
 Voici un exemple de fichier Dockerfile simple qui utilise une image de base Ubuntu pour créer une image qui exécute la commande echo :    
@@ -27,13 +27,13 @@ Exécutez ensuite la commande suivante :
 docker build -t myimage .
 ```
 Cette commande crée une nouvelle image Docker à partir de votre Dockerfile et lui donne le nom myimage. Le . à la fin de la commande spécifie que Docker doit utiliser le répertoire courant comme contexte de construction.    
-2. Exécuter un conteneur à partir de votre image    
+#### 2. Exécuter un conteneur à partir de votre image    
 Maintenant que vous avez créé votre image, vous allez l'utiliser pour exécuter un conteneur. Pour cela, exécutez la commande suivante :   
 ```
 docker run myimage
 ```
 Cette commande démarre un nouveau conteneur à partir de votre image myimage et exécute la commande echo. Vous devriez voir le message "Hello Docker!" s'afficher dans votre terminal.   
-3. Comprendre les concepts de base de Docker    
+#### 3. Comprendre les concepts de base de Docker    
 Maintenant que vous avez créé et exécuté une image Docker, il est important de comprendre les concepts de base de Docker.   
 
 Docker est une plateforme de conteneurisation qui permet d'isoler des applications dans des conteneurs. Les conteneurs sont des instances exécutables d'images Docker qui contiennent tout le nécessaire pour exécuter l'application, y compris le code, les bibliothèques et les dépendances.    
