@@ -5,7 +5,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
 . Docker Desktop (si vous utilisez Windows ou macOS) ou Docker Engine (si vous utilisez Linux)    
 . Un éditeur de texte de votre choix (par exemple, Visual Studio Code)    
-##Objectifs
+## Objectifs
 Dans ce TP, vous allez :
 
 ### Créer votre première image Docker
