@@ -33,6 +33,7 @@ Maintenant que vous avez créé votre image, vous allez l'utiliser pour exécute
 docker run myimage
 ```
 Cette commande démarre un nouveau conteneur à partir de votre image myimage et exécute la commande echo. Vous devriez voir le message "Hello Docker!" s'afficher dans votre terminal.   
+
 #### 3. Comprendre les concepts de base de Docker    
 Maintenant que vous avez créé et exécuté une image Docker, il est important de comprendre les concepts de base de Docker.   
 
