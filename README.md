@@ -47,4 +47,4 @@ Voici quelques termes de base que vous devez connaître :
 . docker build : une commande qui crée une image Docker à partir d'un Dockerfile.   
 . docker run : une commande qui démarre un conteneur à partir d'une image Docker.   
 . docker ps : une commande qui liste tous les conteneurs en cours d'exécution.    
-. docker stop : une commande qui arrête un    
+. docker stop : une commande qui arrête un conteneur. 
